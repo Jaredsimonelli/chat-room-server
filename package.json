@@ -1,0 +1,19 @@
+{
+  "name": "chat_server",
+  "version": "1.0.0",
+  "description": "Websockets Chat Server Homework",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "jshint ./src",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Jared Simonelli",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  },
+  "dependencies": {
+    "socket.io": "^1.4.5"
+  }
+}
